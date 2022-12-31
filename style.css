@@ -1,0 +1,89 @@
+*{
+	color: bisque;
+}
+body{
+	background: url("img1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+table{
+	margin-top: 20px;
+	text-align: center;
+	color: rgb(27, 24, 24);
+	border:none;
+}
+.header1{
+	flex: left;
+	width: 19%;
+	margin-top: 60px;
+	margin-left: 180px;
+	border-bottom: 2px solid white;
+}
+.header2{
+	max-width: 13.5%;
+	margin-top: -85px;
+	margin-left: 880px;
+	border-bottom: 2px solid white;
+}
+
+#show th, #show td{
+	padding: 13px;
+	border-radius: 10px;
+}
+
+#btna td input{
+	width: 20%;
+	border-radius: 100px;
+	font-weight: 800;
+	text-align: center;
+	padding-bottom: 30px;
+	margin-top: 30px;
+	background-color: red;
+	color: white;
+	border: none;
+
+}
+td{
+	border: none;
+}
+tr td input{
+	border-radius: 10px;
+	height: 30px;
+	width: 360px;
+	padding: 10px 20px;
+	font-weight: 500;
+	font-size: 16px;
+	font-family: "Courier New";
+	color: black;
+}
+thead th{
+	border-radius: 10px;
+	height: 50px;
+	border: none;
+	padding: 10px 20px;
+}
+tbody th{
+	border-radius: 10px;
+	height: 30px;
+	width: 360px;
+	border: none;
+}
+
+.two {
+	float:right;
+	width:50%;
+	height: 100%;
+	padding-left: 50px;
+	margin-top: -385px;
+	margin-right: 40px;
+}
+.one{
+	width:40%;
+	height: 100%;
+	padding-left: 50px;
+	margin-top: 50px;
+	padding-right: 20px;
+	border-right: 2px solid;
+	margin-right: 100px;
+}
